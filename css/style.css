@@ -277,7 +277,7 @@ nav .about i {
 
 /* Footer */
 footer {
-  background: rgb(2, 255, 65);
+  background: rgb(1, 193, 49);
   height: auto;
   width: 100vw;
   color: #fff;
@@ -286,7 +286,6 @@ footer {
   display: block;
   align-items: center;
   justify-content: center;
-  text-shadow: 0 0 1px #111;
   text-align: center;
   padding: 0 20vw;
 }
@@ -602,6 +601,33 @@ footer {
 
 /* Responsive Mobaile q */
 @media screen and (max-width: 450px) {
+  nav {
+    height: 60px !important;
+    padding: 5px 15px;
+    box-shadow: 0 0 2px #111;
+  }
+  nav i {
+    padding: 15px 10px !important;
+  }
+  nav img {
+    width: 100%;
+  }
+  .parallax-text {
+    top: 38%;
+  }
+  .content .container {
+    margin-top: 0px;
+    padding: 20px 55.8px;
+  }
+  .content .container img {
+    width: 200px;
+  }
+  .content .text-definisi {
+    border-radius: 10px;
+  }
+  .download {
+    margin: 10px 20px;
+  }
   .download-container ul .flex {
     display: block;
   }
@@ -626,12 +652,15 @@ footer {
     position: absolute;
     margin-top: 3.5vh;
     padding: 2px 0;
-    margin-left: 24vw;
+    margin-left: 20vw;
   }
   .download-container li a p {
     margin: 0 auto;
   }
   .download-container li a p .fa {
     display: none;
+  }
+  .footer-content {
+    padding: 0 10vw;
   }
 }

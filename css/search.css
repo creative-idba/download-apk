@@ -149,7 +149,7 @@ nav .about i {
 
 /* Footer */
 footer {
-  background: rgb(2, 255, 65);
+  background: rgb(1, 193, 49);
   height: auto;
   width: 100vw;
   color: #fff;
@@ -158,7 +158,6 @@ footer {
   display: block;
   align-items: center;
   justify-content: center;
-  text-shadow: 0 0 1px #111;
   text-align: center;
   padding: 0 20vw;
 }
@@ -337,6 +336,7 @@ footer {
 /* Responsive bohraroh */
 @media screen and (max-width: 480px) {
   nav {
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -359,6 +359,12 @@ footer {
   }
 
   /* Download */
+  .download {
+    padding-top: 15px !important;
+  }
+  .download h1 {
+    padding-bottom: 10px;
+  }
   .download-container li a {
     width: 19vw;
   }
@@ -367,6 +373,7 @@ footer {
   }
 
   .footer-content {
+    padding: 0 10vw !important;
     height: auto;
   }
   .footer-content {
@@ -385,7 +392,7 @@ footer {
   }
 /* Responsive Mobaile q */
   .download {
-    margin: 100px 15px 10px;
+    margin: 80px 15px 10px;
     padding: 30px 30px 10px;
   }
   .download h1 {
@@ -401,12 +408,13 @@ footer {
   }
   .download-container ul li {
     width: 100%;
+    height: auto !important;
     display: flex !important;
     justify-content: space-between;
     margin: 0 auto 10px;
   }
   .download-container ul li h4 {
-    font-size: 10.5pt;
+    font-size: 9pt;
     margin: 0;
   }
   .download-container ul li p {
@@ -420,7 +428,7 @@ footer {
     position: absolute;
     margin-top: 3.5vh;
     padding: 2px 0;
-    margin-left: 24vw;
+    margin-left: 19vw;
   }
   .download-container li a p {
     margin: 0 auto;
